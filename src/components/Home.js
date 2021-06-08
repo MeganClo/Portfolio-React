@@ -1,4 +1,6 @@
-import image from "../background.jpg"
+// import image from "../background.jpg"
+import image from "../background.jpeg"
+
 
 const Home = () => {
     return (
