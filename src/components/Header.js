@@ -2,8 +2,8 @@ import Navbar from "./Navbar"
 
 const Header = () => {
     return (
-        <header>
-            <div>
+        <header className="bg-blue-600">
+            <div className="container mx-auto flex justify-between">
                 <Navbar />
             </div>
         </header>
