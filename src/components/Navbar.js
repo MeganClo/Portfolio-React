@@ -9,26 +9,26 @@ const Navbar = () => {
                     to="/"
                     exact
                     activeClassName="text-white"
-                    className="inflex-flex items-center py-6 px-3 mr-4 text-blue-100 hover:text-blue-800 text-4xl font-bold bold tracking-widest"
+                    className="inflex-flex items-center py-6 px-3 mr-4 text-yellow-100 hover:text-yellow-800 text-4xl font-bold bold tracking-widest"
                 >
                     Megan
             </NavLink>
                 <NavLink
                     to="/project"
-                    activeClassName="text-blue-100 bg-blue-700"
-                    className="inline-flex items-center py-3 px-3 my-6 rounded text-blue-200 hover:text-blue-800 light">
+                    activeClassName="text-yellow-100 bg-yellow-700"
+                    className="inline-flex items-center py-3 px-3 my-6 rounded text-yellow-200 hover:text-yellow-800 light">
                     Projects
             </NavLink>
                 <NavLink
-                    to="/post"
-                    activeClassName="text-blue-100 bg-blue-700"
-                    className="inline-flex items-center py-3 px-3 my-6 rounded text-blue-200 hover:text-blue-800 light">
-                    Blog Posts
+                    to="/resume"
+                    activeClassName="text-yellow-100 bg-yellow-700"
+                    className="inline-flex items-center py-3 px-3 my-6 rounded text-yellow-200 hover:text-yellow-800 light">
+                    Resume
             </NavLink>
                 <NavLink
                     to="/about"
-                    activeClassName="text-blue-100 bg-blue-700"
-                    className="inline-flex items-center py-3 px-3 my-6 rounded text-blue-200 hover:text-blue-800 light">
+                    activeClassName="text-yellow-100 bg-yellow-700"
+                    className="inline-flex items-center py-3 px-3 my-6 rounded text-yellow-200 hover:text-yellow-800 light">
                     About Me!
             </NavLink>
             </nav>
