@@ -45,7 +45,7 @@ const Project = () => {
                                 <span className="block h-64 relative rounded shadow leading-snug bg-white border-l-8 border-green-400" key={index}>
                                     <img src={project.mainImage.asset.url} alt={project.mainImage.alt} className="w-full h-full rounded-r object-cover absolute" />
                                 </span>
-                                <div className="text-gray-500 text-xs space-x-4">
+                                <h4 className="text-gray-500 light space-x-4">
 
                                     <BlockContent
                                         blocks={project.body}
@@ -54,7 +54,7 @@ const Project = () => {
                                     />
 
 
-                                </div>
+                                </h4>
                             </a>
 
                         </article>
