@@ -32,6 +32,14 @@ export default {
       },
     },
     {
+      name: 'liveLink',
+      type: 'url'
+    },
+    {
+      name: 'githubLink',
+      type: 'url'
+    },
+    {
       name: 'categories',
       title: 'Categories',
       type: 'array',
