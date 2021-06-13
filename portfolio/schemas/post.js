@@ -51,6 +51,11 @@ export default {
       type: 'datetime',
     },
     {
+      name: 'description',
+      title: 'Description',
+      type: 'blockContent',
+    },
+    {
       name: 'body',
       title: 'Body',
       type: 'blockContent',
