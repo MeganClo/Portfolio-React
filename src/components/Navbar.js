@@ -29,7 +29,7 @@ const Navbar = () => {
                     to="/about"
                     activeClassName="text-yellow-100 bg-yellow-700"
                     className="inline-flex items-center py-3 px-3 my-6 rounded text-yellow-200 hover:text-yellow-800 light">
-                    About Me!
+                    About Me
             </NavLink>
             </nav>
             <div className="inline-flex py-3 px-3 my-6">
