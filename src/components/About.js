@@ -17,8 +17,8 @@ const About = () => {
                 alt
             },
         }`)
-        .then((data) => console.log(data[0]))
-        // .then((data) => setAuthor(data[0]))
+        // .then((data) => console.log(data[0]))
+        .then((data) => setAuthor(data[0]))
 
 
 
@@ -30,11 +30,11 @@ const About = () => {
             <img src={nature} alt="abstract nature" className="absolute object-cover w-full"/>
             <div className="p-10 lg:pt-48 containter mx-auto relative">
                 <section className="bg-green-800 rounded-lg shadow-2xl lg:flex p-20">
-                    {/* <img src={image} alt="author" className="rounded w-32 h-32 lg:w-64 lg:h-64 mr-8"/> */}
+                    <img src={author.image.asset.url} alt="author" className="rounded w-32 lg:w-64 mr-8"/>
                     <div>
                         <h1>
                             <div>
-                                {/* {author.name} */}
+                                {author.name}
                             </div>
                         </h1>
                     </div>
