@@ -1,30 +1,8 @@
 
-import drops from "../drops.jpeg";
-import Me from "../Me.jpg"
+import drops from "../assets/images/drops.jpeg";
+import Me from "../assets/images/Me.jpg"
 
 const About = () => {
-    // const [author, setAuthor] = useState(null); 
-
-    // useEffect(() => {
-    //     sanityClient.fetch(`*[_type == "author"]{
-    //         name,
-    //         bio,
-    //         image{
-    //             asset->{
-    //                 _id,
-    //                 url
-    //             },
-    //             alt
-    //         },
-    //     }`)
-    //     // .then((data) => console.log(data[0]))
-    //     .then((data) => setAuthor(data[0]))
-
-
-
-    //     .catch(console.error);
-    // }, []);
-
     return (
         <main className="relative">
             <img src={drops} alt="abstract nature" className="absolute object-cover w-full h-full"/>

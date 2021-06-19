@@ -29,14 +29,14 @@ const Project = () => {
     return (
         <main className="bg-green-100 min-h-screen p-12">
             <section className="container mx-auto">
-                <h1 className="text-5xl flex justify-center bold">My Projects</h1>
+                <h1 className="text-5xl flex justify-center font-bold bold">My Projects</h1>
                 <h2 className="text-lg light text-gray-600 flex justify-center mb-12">Check out some of my work.</h2>
                 <div className="grid md:grid-cols-2 gap-8">
                     {projectData && projectData.map((project, index) => (
                         <article key={index}>
 
                             <h3 className="text-gray-800 text-3xl text-3xl flex justify-center bold mb-2 hover:text-red-700">
-                                <a href={project.liveLink} alt={project.title} target="_blank" rel="noopener noreferrer">
+                                <a href={project.liveLink} alt={project.title} target="_blank" rel="noopener noreferrer" >
                                     {project.title}
                                 </a>
                                 <SocialIcon url={project.githubLink} className="mr-4 mr-8" target="_blank" fgColor="#fff" style={{ height: 35, width: 35 }} />

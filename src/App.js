@@ -5,7 +5,7 @@ import About from "./components/About";
 import Resume from "./components/Resume";
 import Project from "./components/Project";
 import Header from "./components/Header";
-// import Footer from "./components/Footer"
+import Footer from "./components/Footer"
 
 function App() {
   return (
@@ -18,7 +18,7 @@ function App() {
         <Route component={Resume} path="/resume" />
         <Route component={Project} path="/project" />
       </Switch>
-      {/* <Footer /> */}
+      <Footer />
     </BrowserRouter>
   );
 }
