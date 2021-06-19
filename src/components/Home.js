@@ -1,5 +1,6 @@
 // import image from "../background.jpg"
-import image from "../background.jpeg"
+import image from "../background.jpeg";
+import Typed from "react-typed";
 
 
 const Home = () => {

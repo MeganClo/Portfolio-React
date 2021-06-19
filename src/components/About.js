@@ -27,7 +27,7 @@ const About = () => {
 
     return (
         <main className="relative">
-            <img src={drops} alt="abstract nature" className="absolute object-cover w-full"/>
+            <img src={drops} alt="abstract nature" className="absolute object-cover w-full h-full"/>
             <div className="p-10 lg:pt-48 containter mx-auto relative">
                 <section className="bg-green-800 rounded-lg shadow-2xl lg:flex p-20">
                     <img src={Me} alt="author" className="rounded h-32 lg:h-64 mr-8"/>
