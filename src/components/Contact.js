@@ -1,9 +1,11 @@
 import { useState } from "react";
-import { validateEmail } from "../utils/helpers"
+import { validateEmail } from "../utils/helpers";
+import emailjs from 'emailjs-com';
 
 const Contact = () => {
     const [formState, setFormState] = useState({ firstName: "", lastName: "", email: "", message: "" });
     const [errorMessage, setErrorMessage] = useState('');
+    const [emailMessage, setEmailMessage] = useState('');
     const { firstName, lastName, email, message } = formState;
 
     function handleChange(e) {
@@ -25,18 +27,27 @@ const Contact = () => {
             } else {
                 setErrorMessage("");
             }
-        } 
+        }
 
         if (!errorMessage) {
             setFormState({ ...formState, [e.target.name]: e.target.value });
         }
-        
+
     }
 
     function handleSubmit(e) {
         e.preventDefault();
         console.log(formState);
         console.log("error message", errorMessage)
+        emailjs.sendForm('service_m129xqt', 'template_na8rpgb', e.target, 'user_T6FtcI25YlWbsWTq5lIWI')
+            .then((result) => {
+                console.log(result.text);
+                setEmailMessage("Your message has been sent")
+            }, (error) => {
+                console.log(error.text);
+                setEmailMessage("Something went wrong, please try again!")
+            });
+            e.target.reset();
     }
 
     return (
@@ -59,11 +70,16 @@ const Contact = () => {
                         </div>
                         <input className="light focus:outline-none mt-5 bg-red-800 px-4 py-2 text-white font-bold w-full" type="submit" />
                         <div>
-                        {errorMessage && (
-							<div>
-								<p className="bold font-bold text-center">{errorMessage}</p>
-							</div>
-						)}
+                            {errorMessage && (
+                                <div>
+                                    <p className="bold font-bold text-center">{errorMessage}</p>
+                                </div>
+                            )}
+                            {emailMessage && (
+                                <div>
+                                    <p className="bold font-bold text-center">{emailMessage}</p>
+                                </div>
+                            )}
                         </div>
                     </form>
                 </div>
