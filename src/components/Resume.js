@@ -1,12 +1,12 @@
 
-import React, { Fragment } from "react";
+
 import Fade from "react-reveal/Fade";
 import Typed from "react-typed";
 import ResumePDF from "../assets/resume/resume.pdf"
 
 const Resume = () => {
     return (
-        <Fragment>
+        <>
 
             <div style={styles.block}>
                 <Fade top>
@@ -53,8 +53,8 @@ const Resume = () => {
                     </button>
                 </h2>
             </div>
-
-        </Fragment>
+        </>
+        
     )
 
 

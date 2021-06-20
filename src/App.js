@@ -1,7 +1,6 @@
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 import Home from "./components/Home";
 import About from "./components/About";
-// import SinglePost from "./components/SinglePost";
 import Resume from "./components/Resume";
 import Project from "./components/Project";
 import Header from "./components/Header";
@@ -15,7 +14,6 @@ function App() {
       <Switch>
         <Route component={Home} path="/" exact />
         <Route component={About} path="/about" />
-        {/* <Route component={SinglePost} path="/post:slug" /> */}
         <Route component={Resume} path="/resume" />
         <Route component={Project} path="/project" />
         <Route component={Contact} path="/contact" />

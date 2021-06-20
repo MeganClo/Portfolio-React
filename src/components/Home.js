@@ -10,7 +10,7 @@ const Home = () => {
                 <h1 className="text-6-xl bold font-bold text-blue-100 leading-non lg:leading-snug home-name">
                     <Typed
                         strings={["Hi. I'm Megan."]}
-                        typeSpeed={40}
+                        typeSpeed={60}
                     /></h1>
             </section>
         </main>
