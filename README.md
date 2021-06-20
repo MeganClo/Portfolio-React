@@ -14,7 +14,7 @@ This my portfolio built with react.
 * [Questions](#Questions)
 
 ## Usage
-To visit this application please visit the live site [here](https://techbloggerhere.herokuapp.com/). You visit the different sections, check out my projects, and send me an email via the contact page. 
+To visit this application please visit the live site [here](https://megancloseportfolio.netlify.app/). You can visit the different sections, check out my projects, and send me an email via the contact page. 
 
 ## Built-With 
   * Node.js 
