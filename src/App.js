@@ -5,7 +5,8 @@ import About from "./components/About";
 import Resume from "./components/Resume";
 import Project from "./components/Project";
 import Header from "./components/Header";
-import Footer from "./components/Footer"
+import Footer from "./components/Footer";
+import Contact from "./components/Contact";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         {/* <Route component={SinglePost} path="/post:slug" /> */}
         <Route component={Resume} path="/resume" />
         <Route component={Project} path="/project" />
+        <Route component={Contact} path="/contact" />
       </Switch>
       <Footer />
     </BrowserRouter>

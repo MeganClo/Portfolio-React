@@ -35,6 +35,9 @@ const Navbar = () => {
             <div className="inline-flex py-3 px-3 my-6">
                 <SocialIcon url="https://github.com/MeganClo" className="mr-4" target="_blank" fgColor="#fff" style={{ height: 35, width: 35 }} />
                 <SocialIcon url="https://www.linkedin.com/in/megan-close-077b921bb/" className="mr-4" target="_blank" fgColor="#fff" style={{ height: 35, width: 35 }} />
+                <SocialIcon path="/contact" network="email" className="mr-4" fgColor="#fff" style={{ height: 35, width: 35 }} />
+
+
             </div>
         </>
     );
