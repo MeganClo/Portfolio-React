@@ -1,4 +1,4 @@
-
+// footer component simple/clean
 const Footer = () => {
     return (
         <div className="bg-red-800 flex">

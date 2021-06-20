@@ -1,7 +1,8 @@
+// importing dependencies 
 import { NavLink } from "react-router-dom";
 import { SocialIcon } from "react-social-icons";
-// import MailIcon from '@material-ui/icons/Mail';
 
+// navbar for the header
 const Navbar = () => {
     return (
         <>
@@ -10,8 +11,7 @@ const Navbar = () => {
                     to="/"
                     exact
                     activeClassName="text-white"
-                    className="inflex-flex items-center py-6 px-3 mr-4 text-yellow-100 hover:text-yellow-800 text-4xl font-bold bold tracking-widest"
-                >
+                    className="inflex-flex items-center py-6 px-3 mr-4 text-yellow-100 hover:text-yellow-800 text-4xl font-bold bold tracking-widest">
                     Megan
                 </NavLink>
                 <NavLink

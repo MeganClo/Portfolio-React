@@ -1,3 +1,4 @@
+// header importing navbar to include
 import Navbar from "./Navbar"
 
 const Header = () => {

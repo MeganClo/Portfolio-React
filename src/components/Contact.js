@@ -1,3 +1,4 @@
+// dependencies needed for contact ** emailjs sends me an email from contact page
 import { useState } from "react";
 import { validateEmail } from "../utils/helpers";
 import emailjs from 'emailjs-com';
@@ -34,7 +35,7 @@ const Contact = () => {
         }
 
     }
-
+    // sending email when someone submits message
     function handleSubmit(e) {
         e.preventDefault();
         console.log(formState);

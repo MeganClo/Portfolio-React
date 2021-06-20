@@ -1,4 +1,4 @@
-
+// importing dependencies for about 
 import drops from "../assets/images/drops.jpeg";
 import Me from "../assets/images/Me.jpg"
 

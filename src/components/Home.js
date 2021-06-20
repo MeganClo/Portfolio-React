@@ -1,3 +1,4 @@
+// dependencies needed for home ** typed is a package that makes the typed animation
 import image from "../assets/images/background.jpeg";
 import Typed from "react-typed";
 

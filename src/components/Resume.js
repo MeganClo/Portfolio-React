@@ -1,5 +1,4 @@
-
-
+// importing dependencies for resume-page
 import Fade from "react-reveal/Fade";
 import Typed from "react-typed";
 import ResumePDF from "../assets/resume/resume.pdf"
@@ -7,7 +6,6 @@ import ResumePDF from "../assets/resume/resume.pdf"
 const Resume = () => {
     return (
         <>
-
             <div style={styles.block}>
                 <Fade top>
                     <h1 style={styles.title}>Front End Skills</h1>
