@@ -47,15 +47,15 @@ const Contact = () => {
                     <h4 className="light text-center text-3xl">Contact Me</h4>
                     <form onSubmit={handleSubmit}>
                         <div className="grid grid-cols-2 gap-5">
-                            <input placeholder="First Name" className="border border-red-500 px-4 py-2 focus:outline-none focus:border-red-800" type="text" name="firstName" defaultValue={firstName} onChange={handleChange} />
-                            <input placeholder="Last Name" className="border border-red-500 px-4 py-2 focus:outline-none focus:border-red-800" type="text" name="lastName" defaultValue={lastName} onChange={handleChange} />
+                            <input placeholder="First Name" className="border border-red-500 px-4 py-2 focus:outline-none focus:border-red-800" type="text" name="firstName" defaultValue={firstName} onBlur={handleChange} />
+                            <input placeholder="Last Name" className="border border-red-500 px-4 py-2 focus:outline-none focus:border-red-800" type="text" name="lastName" defaultValue={lastName} onBlur={handleChange} />
 
                         </div>
                         <div className="grid grid-cols-1 pt-5">
-                            <input placeholder="Email" className="border border-red-500 px-4 py-2 focus:outline-none focus:border-red-800" type="text" name="email" defaultValue={email} onChange={handleChange} />
+                            <input placeholder="Email" className="border border-red-500 px-4 py-2 focus:outline-none focus:border-red-800" type="text" name="email" defaultValue={email} onBlur={handleChange} />
                         </div>
                         <div className="grid grid-cols-1 pt-5">
-                            <textarea name="message" placeholder="Write your message..." className="border border-red-500 px-4 py-2 focus:outline-none focus:border-red-800" cols="" rows="5" defaultValue={message} onChange={handleChange}></textarea>
+                            <textarea name="message" placeholder="Write your message..." className="border border-red-500 px-4 py-2 focus:outline-none focus:border-red-800" cols="" rows="5" defaultValue={message} onBlur={handleChange}></textarea>
                         </div>
                         <input className="light focus:outline-none mt-5 bg-red-800 px-4 py-2 text-white font-bold w-full" type="submit" />
                         <div>
