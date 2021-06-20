@@ -4,6 +4,7 @@
 This my portfolio built with react. 
 
 ## Screenshot of Live Link
+![Portfolio](https://user-images.githubusercontent.com/77699944/122687964-41a91400-d1ce-11eb-92f1-5c7c11c6654c.jpg)
 
 
 ## Table of Contents
